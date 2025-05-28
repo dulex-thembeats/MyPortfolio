@@ -1,0 +1,106 @@
+/* Custom Font Imports to match the website */
+/* @import url('https://use.typekit.net/af/5bb28b/00000000000000007735a081/31/l?subset_id=2&fvd=n7&v=3');
+@import url('https://use.typekit.net/af/bed698/00000000000000007735a082/31/l?subset_id=2&fvd=n3&v=3');
+@import url('https://use.typekit.net/af/5aaf18/00000000000000007735a08e/31/l?subset_id=2&fvd=n4&v=3');
+@import url('https://use.typekit.net/af/a86391/00000000000000007735a08f/31/l?subset_id=2&fvd=i4&v=3');
+@import url('https://use.typekit.net/af/9f8870/00000000000000007735a09e/31/l?subset_id=2&fvd=i7&v=3');
+@import url('https://use.typekit.net/af/99c642/00000000000000007735a08a/31/l?subset_id=2&fvd=i3&v=3'); */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98.4%; /* #fbfbfb */
+    --foreground: 0 0% 7.1%; /* #121212 */
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 7.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 7.1%;
+    --primary: 0 0% 7.1%; /* #121212 */
+    --primary-foreground: 0 0% 98.4%;
+    --secondary: 159 68% 54.9%; /* #3bdbd4 - teal */
+    --secondary-foreground: 0 0% 98.4%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 336 73% 64.3%; /* #ee5a87 - pink */
+    --accent-foreground: 0 0% 98.4%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98.4%;
+    --border: 0 0% 78.4%; /* #c8c8c8 */
+    --input: 0 0% 78.4%;
+    --ring: 0 0% 7.1%;
+    --radius: 0rem; /* The website uses square buttons */
+
+    /* Custom colors from the website */
+    --teal: 159 68% 54.9%; /* #3bdbd4 */
+    --pink: 336 73% 64.3%; /* #ee5a87 */
+    --light-pink: 347 53% 78.2%; /* #e58e9c */
+    --dark-gray: 0 0% 7.1%; /* #121212 */
+    --light-gray: 0 0% 60.8%; /* #9a9b9b */
+    --gold: 39 81% 52.5%; /* #eba61f */
+    --beige: 43 60% 72.7%; /* #ecc484 */
+  }
+
+  .dark {
+    --background: 0 0% 7.1%;
+    --foreground: 0 0% 98.4%;
+    --card: 0 0% 7.1%;
+    --card-foreground: 0 0% 98.4%;
+    --popover: 0 0% 7.1%;
+    --popover-foreground: 0 0% 98.4%;
+    --primary: 0 0% 98.4%;
+    --primary-foreground: 0 0% 7.1%;
+    --secondary: 159 68% 54.9%;
+    --secondary-foreground: 0 0% 7.1%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
+    --accent: 336 73% 64.3%;
+    --accent-foreground: 0 0% 7.1%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98.4%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 0 0% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+  }
+  h1, h2, h3, h4 {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+  }
+  p {
+    font-family: "League Spartan", sans-serif;
+    font-weight: 300;
+  }
+  blockquote {
+    font-family: "League Spartan", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply mx-auto max-w-[1200px] px-4 md:px-6;
+  }
+
+  .nav-link {
+    @apply text-foreground hover:opacity-70 transition-opacity duration-200;
+  }
+
+  .announcement-bar {
+    @apply bg-dark-gray text-white py-4 text-center relative;
+  }
+}
