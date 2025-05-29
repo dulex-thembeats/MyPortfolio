@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Product Manager Portfolio - Muhammad Abdulkadir",
     description: "Lead Product Manager in Nigeria who is Data-Driven, Detail-Oriented, and Problem Solver",
-    creator: "@mabdulkadir",
+    creator: "@dev_dulex",
   },
 };
 

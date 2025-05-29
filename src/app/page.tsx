@@ -26,39 +26,25 @@ const portfolioItems = [
   },
   {
     id: "dribbble",
-    title: "Case Study: Dribbble",
+    title: "Case Study: ArtStation",
     icon: (
-      <svg width="100" height="60" viewBox="0 0 100 100" className="text-[#f48fb1]">
-        <circle cx="50" cy="50" r="45" fill="transparent" stroke="currentColor" strokeWidth="4" />
-        <path
-          fill="transparent"
-          stroke="currentColor"
-          strokeWidth="4"
-          d="M25 50 C25 37 37 25 50 25 C63 25 75 37 75 50 C75 63 63 75 50 75 C37 75 25 63 25 50"
-        />
-        <path
-          fill="transparent"
-          stroke="currentColor"
-          strokeWidth="4"
-          d="M75 25 C63 37 37 37 25 25"
-        />
-        <path
-          fill="transparent"
-          stroke="currentColor"
-          strokeWidth="4"
-          d="M75 75 C63 63 37 63 25 75"
-        />
-      </svg>
+      <Image
+        src="https://res.cloudinary.com/lexlab/image/upload/v1748524703/ArtStation_logo_tukkno.png"
+        alt="Stitcher Logo"
+        width={150}
+        height={60}
+        className="object-contain"
+      />
     ),
     href: "/dribbble",
     bgColor: "bg-light-pink"
   },
   {
     id: "stitcher",
-    title: "Case Study: Stitcher",
+    title: "Case Study: Overcast",
     icon: (
       <Image
-        src="https://ext.same-assets.com/579272258/4272343917.png"
+        src="https://res.cloudinary.com/lexlab/image/upload/v1748524700/Overcast_logo_nr02l4.svg"
         alt="Stitcher Logo"
         width={150}
         height={60}
@@ -83,9 +69,20 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-0 max-w-4xl mx-auto overflow-hidden">
           {portfolioItems.map((item) => (
             <Link key={item.id} href={item.href} className="block">
-              <div className={`${item.bgColor} h-40 md:h-56 flex items-center justify-center`}>
-                {item.icon}
-              </div>
+            <div
+  className={`${item.bgColor} h-40 md:h-56 flex items-center justify-center relative group transition-all duration-300 cursor-pointer group-hover:scale-105`}
+>
+  {/* Icon (hide on hover) */}
+  <div className="absolute group-hover:opacity-0 transition-opacity duration-300">
+    {item.icon}
+  </div>
+
+  {/* Text (show on hover) */}
+  <div className="opacity-0 group-hover:opacity-100 text-white text-2xl md:text-3xl font-medium transition-opacity duration-300 text-center px-4">
+    {item.title}
+  </div>
+</div>
+
             </Link>
           ))}
         </div>

@@ -36,7 +36,7 @@ export default function ResumePage() {
 
 
           <p className="mt-4 text-sm text-light-gray">
-            Updated Late 2024
+            Updated Late 2025
           </p>
         </div>
       </section>

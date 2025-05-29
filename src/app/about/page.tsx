@@ -88,18 +88,18 @@ At the core of my work is a holistic view of the user journey. I ask hard questi
 
             </p>
             <p>
-Core Competencies
-Product Development:  Customer interviews, journey mapping, hypothesis validation, KPI setting, and growth strategy. UX & Design Thinking: Skilled in applying user-centered design principles to craft intuitive, high-impact experiences. Data-Driven Decision Making: Proficient in analyzing user behavior to inform roadmap priorities and optimize performance.
+<b>Core Competencies</b>
+<b>Product Development:</b>  Customer interviews, journey mapping, hypothesis validation, KPI setting, and growth strategy. UX & Design Thinking: Skilled in applying user-centered design principles to craft intuitive, high-impact experiences. Data-Driven Decision Making: Proficient in analyzing user behavior to inform roadmap priorities and optimize performance.
             </p>
   <p>
-Tools & Platforms
+<b>Tools & Platforms</b>
   </p>
 
   <p>
-Product & Collaboration: Notion, Google Sheets, Figma, Whimsical, Optimizely, MixPanel, Mode, Looker, Salesforce. Project Management: Linear, Jira, Asana, ClickUp | Familiar with Agile, Scrum, and Lean methodologies.
+<b>Product & Collaboration:</b> Notion, Google Sheets, Figma, Whimsical, Optimizely, MixPanel, Mode, Looker, Salesforce. Project Management: Linear, Jira, Asana, ClickUp | Familiar with Agile, Scrum, and Lean methodologies.
    </p>
             <p>
-Analytics & Automation: SQL, RegEx, Python (Pandas), PHP, JSON, APIs | Experience with LangChain and OpenAI tools. Web & Data Tech: HTML/CSS, webhooks, automation pipelines, and basic back-end scripting.
+<b>Analytics & Automation:</b> SQL, RegEx, Python (Pandas), PHP, JSON, APIs | Experience with LangChain and OpenAI tools. Web & Data Tech: HTML/CSS, webhooks, automation pipelines, and basic back-end scripting.
             </p>
           </div>
         </div>
