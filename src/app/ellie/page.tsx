@@ -11,8 +11,8 @@ export default function FitSyncPage() {
     { href: "/", label: "All" },
     { href: "/ellie", label: "Fitsync AI" },
     { href: "/cohabz", label: "Cohabz" },
-    { href: "/dribbble", label: "Case Study — Dribbble" },
-    { href: "/stitcher", label: "Case Study — Stitcher" },
+    { href: "/dribbble", label: "Case Study — ArtStation" },
+    { href: "/stitcher", label: "Case Study — OverCast" },
   ];
 
   return (
