@@ -90,7 +90,7 @@ export default function Home() {
 
       <section className="mb-16 md:mb-24 max-w-3xl mx-auto">
         <blockquote className="text-lg md:text-xl leading-relaxed text-center italic">
-          "[Muhammad] consistently exhibits exceptional technical acumen and a remarkable ability to devise effective solutions to complex challenges. His dedication to excellence is reflected not only in the quality of his work but also in his commitment to supporting colleagues and fostering a collaborative team environment. He is frequently recognized for his leadership, professionalism, and the positive influence he brings to every project. With his unique combination of technical proficiency and strategic thinking, Muhammad is a valuable asset to any organization and is poised to make a meaningful impact wherever he contributes
+          "[Muhammad] consistently exhibits exceptional technical acumen and a remarkable ability to devise effective solutions to complex challenges. His dedication to excellence is reflected not only in the quality of his work but also in his commitment to supporting colleagues and fostering a collaborative team environment. He is frequently recognized for his leadership, professionalism, and the positive influence he brings to every project. With his unique combination of technical proficiency and strategic thinking, Muhammad is a valuable asset to any organization and is poised to make a meaningful impact wherever he contributes.
           <footer className="mt-6 text-light-gray not-italic text-sm">
             — Abdullahi Bature, Co-Founder @ Schoola, Curri-AI (Direct Manager).
           </footer>
