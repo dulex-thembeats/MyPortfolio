@@ -17,7 +17,7 @@ export default function ResumePage() {
           <Link href="#" className="mb-4 border border-dark-gray hover:shadow-md transition-shadow">
             <div className="relative w-[400px] h-[500px] bg-gray-100">
               <Image
-                src="https://res.cloudinary.com/lexlab/image/upload/v1747067855/Muhammad_Abdulkadir-_CV.png_nwsbmv.png"
+                src="https://res.cloudinary.com/lexlab/image/upload/v1748885999/Untitled_design_2_esp8uu.png"
                 alt="Mark Progano Resume"
                 fill
                 className="object-contain"
@@ -26,7 +26,7 @@ export default function ResumePage() {
           </Link>
 
           <Link
-  href="/your-pdf-file.pdf"
+  href="https://res.cloudinary.com/lexlab/image/upload/v1748873008/Muhammad_Abdulkadir-_PM_CV_r4fzvf.pdf"
   target="_blank"
   rel="noopener noreferrer"
   className="inline-flex items-center justify-center h-12 px-8 border border-dark-gray text-dark-gray hover:bg-dark-gray hover:text-white transition-colors uppercase text-sm tracking-wider font-medium"
