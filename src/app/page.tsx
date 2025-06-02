@@ -5,7 +5,7 @@ import { Zap } from "lucide-react";
 const portfolioItems = [
   {
     id: "ellie",
-    title: "Ellie from Actively",
+    title: "FitSync AI",
     icon: <Zap size={70} strokeWidth={3} color="white" className="drop-shadow-md" />,
     href: "/ellie",
     bgColor: "bg-teal"

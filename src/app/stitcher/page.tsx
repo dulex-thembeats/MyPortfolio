@@ -9,7 +9,7 @@ export default function DribbblePage() {
 
   const navLinks = [
     { href: "/", label: "All" },
-    { href: "/ellie-from-actively", label: "Ellie from Actively" },
+    { href: "/ellie", label: "FitSync AI" },
     { href: "/cohabz", label: "Cohabz" },
     { href: "/dribbble", label: "Case Study — Artstation" },
     { href: "/stitcher", label: "Case Study — Overcast" },
@@ -47,7 +47,7 @@ export default function DribbblePage() {
       {/* View PDF Button */}
       <section className="mb-12 text-center">
         <a
-          href="/dribbble-case-study.pdf"
+          href="https://res.cloudinary.com/lexlab/image/upload/v1748535602/Overcast_-Case_Study.pdf_zxt5qh.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-white text-blue-600 border border-blue-600 px-6 py-3 rounded-full text-sm font-semibold hover:bg-blue-600 hover:text-white transition-colors"
