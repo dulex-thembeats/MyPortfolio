@@ -12,7 +12,7 @@ const portfolioItems = [
   },
   {
     id: "cohabz",
-    title: "Cohabz",
+    title: "BlockBeacon",
     icon: (
       <svg width="80" height="70" viewBox="0 0 100 100" className="text-white">
         <path

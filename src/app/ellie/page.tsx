@@ -10,7 +10,7 @@ export default function FitSyncPage() {
   const navLinks = [
     { href: "/", label: "All" },
     { href: "/ellie", label: "Fitsync AI" },
-    { href: "/cohabz", label: "Cohabz" },
+    { href: "/cohabz", label: "BlockBeacon" },
     { href: "/dribbble", label: "Case Study — ArtStation" },
     { href: "/stitcher", label: "Case Study — OverCast" },
   ];

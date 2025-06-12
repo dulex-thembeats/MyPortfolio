@@ -10,7 +10,7 @@ export default function DribbblePage() {
   const navLinks = [
     { href: "/", label: "All" },
     { href: "/ellie", label: "FitSync AI" },
-    { href: "/cohabz", label: "Cohabz" },
+    { href: "/cohabz", label: "BlockBeacon" },
     { href: "/dribbble", label: "Case Study — Artstation" },
     { href: "/stitcher", label: "Case Study — Overcast" },
   ];
